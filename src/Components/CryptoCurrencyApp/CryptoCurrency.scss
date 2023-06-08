@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+#currency-field{
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(136, 136, 196);
+    border-radius: 5px;
+    color: white;
+}
+
+.crypto-data{
+    margin-top: 100px;
+}
+.currency{
+    display: flex;
+    color: white;
+    text-transform: capitalize;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid rgb(220, 208, 208);
+    padding: 10px;
+    &-name{
+        margin-left: 10px;
+        width: 300px;
+    }
+    &-price{
+        width: 300px;
+    }
+    &-percentage{
+        width: 300px;
+        color: red;
+    }
+    &-market-cap{
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width: 800px) {
+    .currency{
+        margin-left: -10px;
+        margin-right: -10px;
+        font-size: 10px;
+
+    }
+    #currency-field{
+        margin-top: 30px;
+        height: 30px;
+        background-color: rgb(136, 136, 196);
+        border-radius: 5px;
+        color: white;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+  
+    .currency{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    #currency-field{
+        margin-top: 30px;
+        height: 30px;
+        background-color: rgb(136, 136, 196);
+        border-radius: 5px;
+        color: white;
+    }
+  }
+
+
+  @media only screen and (max-width: 550px) {
+    .currency{
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+    #currency-field{
+        margin-top: 30px;
+        height: 30px;
+        background-color: rgb(136, 136, 196);
+        border-radius: 5px;
+        color: white;
+    }
+  }
+
+
+
