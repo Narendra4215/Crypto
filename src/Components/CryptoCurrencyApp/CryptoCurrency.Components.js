@@ -9,7 +9,7 @@ export default class CryptoCurrencyComponents extends PureComponent {
       <div>
         <div>
  
-<input id='currency-field' type="text" placeholder="provide the coin name" value={this.search} onChange={this.handleSearch} />
+<input id='currency-field' type="text" placeholder="provide the coin name" value={this.search} onChange={handleSearch} />
 
 </div>
 <div className='crypto-data'>
@@ -31,7 +31,7 @@ export default class CryptoCurrencyComponents extends PureComponent {
        Mkp Cap: <br /> Rs.{crypto.market_cap}
       </div>
     </div>
-  ))}
+  ))} 
 </div>
       </div>
     )

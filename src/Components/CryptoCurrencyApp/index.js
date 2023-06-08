@@ -1,2 +1,2 @@
 
-export {default} from "./CryptoCurrency.Container.js"
+export {default} from "./Crypto.Container";

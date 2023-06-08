@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
-import CryptoCurrencyComponents from './CryptoCurrency.Components';
+import CryptoComponents from './CryptoCurrency.Components';
 
-export default class CryptoCurrencyContainer extends PureComponent {
+export default class CryptoContainer extends PureComponent {
 
     constructor(props) {
         super(props);
@@ -44,7 +44,7 @@ export default class CryptoCurrencyContainer extends PureComponent {
 
     return (
       <div>
-     <CryptoCurrencyComponents filteredCryptos={filteredCryptos} handleSearch={this.handleSearch} />
+     <CryptoComponents filteredCryptos={filteredCryptos} handleSearch={this.handleSearch} />
       </div>
     )
   }
